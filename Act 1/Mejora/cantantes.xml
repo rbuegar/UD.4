@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE discografica SYSTEM "BDcantantes.dtd">
+
+<discografica>
+  <cantante>
+    <nombre>Beyoncé</nombre>
+    <genero>Pop/RyB</genero>
+    <albumes>6</albumes>
+    <popularidad>Alta</popularidad>
+  </cantante>
+  <cantante>
+    <nombre>Ed Sheeran</nombre>
+    <genero>Pop</genero>
+    <albumes>5</albumes>
+    <popularidad>Alta</popularidad>
+  </cantante>
+  <cantante>
+    <nombre>Adele</nombre>
+    <genero>Pop/Soul</genero>
+    <albumes>4</albumes>
+    <popularidad>Alta</popularidad>
+  </cantante>
+  <cantante>
+    <nombre>Drake</nombre>
+    <genero>Rap/RyB</genero>
+    <albumes>7</albumes>
+    <popularidad>Alta</popularidad>
+  </cantante>
+  <cantante>
+    <nombre>Taylor Swift</nombre>
+    <genero>Country/Pop</genero>
+    <albumes>9</albumes>
+    <popularidad>Alta</popularidad>
+  </cantante>
+  <cantante>
+    <nombre>Justin Bieber</nombre>
+    <genero>Pop/RyB</genero>
+    <albumes>6</albumes>
+    <popularidad>Alta</popularidad>
+  </cantante>
+  <cantante>
+    <nombre>Ariana Grande</nombre>
+    <genero>Pop/RyB</genero>
+    <albumes>5</albumes>
+    <popularidad>Alta</popularidad>
+  </cantante>
+  <cantante>
+    <nombre>Post Malone</nombre>
+    <genero>Rap/Pop</genero>
+    <albumes>4</albumes>
+    <popularidad>Alta</popularidad>
+  </cantante>
+  <cantante>
+    <nombre>Shawn Mendes</nombre>
+    <genero>Pop</genero>
+    <albumes>3</albumes>
+    <popularidad>Alta</popularidad>
+  </cantante>
+  <cantante>
+    <nombre>Dua Lipa</nombre>
+    <genero>Pop</genero>
+    <albumes>2</albumes>
+    <popularidad>Alta</popularidad>
+  </cantante>
+</discografica>

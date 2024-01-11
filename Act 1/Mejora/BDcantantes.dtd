@@ -1,0 +1,6 @@
+<!ELEMENT discografica (cantante*)>
+<!ELEMENT cantante (nombre, genero, albumes, popularidad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT albumes (#PCDATA)>
+<!ELEMENT popularidad (#PCDATA)>
