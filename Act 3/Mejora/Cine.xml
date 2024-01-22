@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE cine SYSTEM "BDCine.dtd">
+
+
+
+<cine>
+    <pelicula>
+        <codigo>001</codigo>
+        <nombre>El señor de los anillos: La comunidad del anillo</nombre>
+        <director>Peter Jackson</director>
+        <fechaEstreno>2001-12-19</fechaEstreno>
+        <personajes>Frodo, Aragorn, Gandalf</personajes>
+        <salas>Sala1, Sala2</salas>
+        <compañiaCinematografica>New Line Cinema</compañiaCinematografica>
+    </pelicula>
+    <pelicula>
+        <codigo>002</codigo>
+        <nombre>La La Land</nombre>
+        <director>Damien Chazelle</director>
+        <fechaEstreno>2016-12-09</fechaEstreno>
+        <personajes>Mia, Sebastian</personajes>
+        <salas>Sala3, Sala4</salas>
+        <compañiaCinematografica>Summit Entertainment</compañiaCinematografica>
+    </pelicula>
+    <pelicula>
+        <codigo>003</codigo>
+        <nombre>Inception</nombre>
+        <director>Christopher Nolan</director>
+        <fechaEstreno>2010-07-08</fechaEstreno>
+        <personajes>Cobb, Ariadne, Eames</personajes>
+        <salas>Sala5, Sala6</salas>
+        <compañiaCinematografica>Warner Bros.</compañiaCinematografica>
+    </pelicula>
+    <pelicula>
+        <codigo>004</codigo>
+        <nombre>Avengers: Endgame</nombre>
+        <director>Anthony and Joe Russo</director>
+        <fechaEstreno>2019-04-26</fechaEstreno>
+        <personajes>Iron Man, Captain America, Thor</personajes>
+        <salas>Sala7, Sala8</salas>
+        <compañiaCinematografica>Marvel Studios</compañiaCinematografica>
+    </pelicula>
+    <pelicula>
+        <codigo>005</codigo>
+        <nombre>Harry Potter and the Sorcerer's Stone</nombre>
+        <director>Chris Columbus</director>
+        <fechaEstreno>2001-11-16</fechaEstreno>
+        <personajes>Harry, Hermione, Ron</personajes>
+        <salas>Sala9, Sala10</salas>
+        <compañiaCinematografica>Warner Bros.</compañiaCinematografica>
+    </pelicula>
+    <pelicula>
+        <codigo>006</codigo>
+        <nombre>The Shawshank Redemption</nombre>
+        <director>Frank Darabont</director>
+        <fechaEstreno>1994-09-23</fechaEstreno>
+        <personajes>Andy Dufresne, Red</personajes>
+        <salas>Sala11, Sala12</salas>
+        <compañiaCinematografica>Columbia Pictures</compañiaCinematografica>
+    </pelicula>
+    <pelicula>
+        <codigo>007</codigo>
+        <nombre>The Dark Knight</nombre>
+        <director>Christopher Nolan</director>
+        <fechaEstreno>2008-07-18</fechaEstreno>
+        <personajes>Batman, Joker, Harvey Dent</personajes>
+        <salas>Sala13, Sala14</salas>
+        <compañiaCinematografica>Warner Bros.</compañiaCinematografica>
+    </pelicula>
+    <pelicula>
+        <codigo>008</codigo>
+        <nombre>Titanic</nombre>
+        <director>James Cameron</director>
+        <fechaEstreno>1997-12-19</fechaEstreno>
+        <personajes>Jack, Rose</personajes>
+        <salas>Sala15, Sala16</salas>
+        <compañiaCinematografica>Paramount Pictures</compañiaCinematografica>
+    </pelicula>
+    <pelicula>
+        <codigo>009</codigo>
+        <nombre>Forrest Gump</nombre>
+        <director>Robert Zemeckis</director>
+        <fechaEstreno>1994-07-06</fechaEstreno>
+        <personajes>Forrest Gump, Jenny</personajes>
+        <salas>Sala17, Sala18</salas>
+        <compañiaCinematografica>Paramount Pictures</compañiaCinematografica>
+    </pelicula>
+    <pelicula>
+        <codigo>010</codigo>
+        <nombre>Toy Story 4</nombre>
+        <director>Josh Cooley</director>
+        <fechaEstreno>2019-06-11</fechaEstreno>
+        <personajes>Woody, Buzz Lightyear, Bo Peep</personajes>
+        <salas>Sala19, Sala20</salas>
+        <compañiaCinematografica>Walt Disney Pictures</compañiaCinematografica>
+    </pelicula>
+</cine>
