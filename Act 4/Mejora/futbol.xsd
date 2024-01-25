@@ -1,0 +1,30 @@
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="futbol">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="equipo" maxOccurs="unbounded" type="equipoType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="equipoType">
+    <xs:sequence>
+      <xs:element name="jugador" maxOccurs="unbounded" type="jugadorType"/>
+    </xs:sequence>
+    <xs:attribute name="codigo_equipo" type="xs:string" use="required"/>
+    <xs:attribute name="nombre_entrenador" type="xs:string" use="required"/>
+    <xs:attribute name="fecha_creacion" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="jugadorType">
+    <xs:sequence>
+      <xs:element name="codigo_jugador" type="xs:string"/>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="posicion" type="xs:string"/>
+      <xs:element name="salario" type="xs:decimal"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

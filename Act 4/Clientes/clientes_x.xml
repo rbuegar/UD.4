@@ -1,0 +1,14 @@
+
+<!DOCTYPE gestoria SYSTEM "ges/gestoria.xsd">
+<gestoria>
+  <sede codigo_sede="S001" nombre_empleado="Juan" fecha_alta="2024-01-25">
+    <cliente>
+      <codigo_cliente>ABC-123</codigo_cliente>
+      <descripcion_cliente>solvente</descripcion_cliente>
+      <num_viviendas>3</num_viviendas>
+      <coste_vivienda>150000.00</coste_vivienda>
+      <resumen_viviendas>Resumen de las viviendas</resumen_viviendas>
+      <plazo_alta_hacienda>2024-02-01</plazo_alta_hacienda>
+    </cliente>
+  </sede>
+</gestoria>

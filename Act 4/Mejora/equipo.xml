@@ -1,0 +1,18 @@
+
+<!DOCTYPE futbol SYSTEM "futbol.dtd">
+<futbol>
+  <equipo codigo_equipo="E001" nombre_entrenador="Pep Guardiola" fecha_creacion="2024-01-25">
+    <jugador>
+      <codigo_jugador>PLR-001</codigo_jugador>
+      <nombre>Lionel Messi</nombre>
+      <posicion>Delantero</posicion>
+      <salario>15000000.00</salario>
+    </jugador>
+    <jugador>
+      <codigo_jugador>PLR-002</codigo_jugador>
+      <nombre>Kevin De Bruyne</nombre>
+      <posicion>Centrocampista</posicion>
+      <salario>12000000.00</salario>
+    </jugador>
+  </equipo>
+</futbol>

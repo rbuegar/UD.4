@@ -1,9 +1,10 @@
 <!ELEMENT cine (pelicula+)>
-<!ELEMENT pelicula (codigo, director, fechaEstreno, personajes, salas, compañiaCinematografica)>
+<!ELEMENT pelicula (codigo, nombre, director, fechaEstreno, personajes, salas, compañiaCinematografica)>
 
 <!ELEMENT codigo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
 <!ELEMENT director (#PCDATA)>
 <!ELEMENT fechaEstreno (#PCDATA)>
 <!ELEMENT personajes (#PCDATA)>
 <!ELEMENT salas (#PCDATA)>
-<!ELEMENT companiaCinematografica (#PCDATA)>
+<!ELEMENT compañiaCinematografica (#PCDATA)>

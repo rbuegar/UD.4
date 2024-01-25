@@ -1,0 +1,12 @@
+
+<!ELEMENT futbol (equipo+)>
+<!ELEMENT equipo (jugador+)>
+<!ELEMENT jugador (codigo_jugador, nombre, posicion, salario)>
+<!ELEMENT codigo_jugador (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT posicion (#PCDATA)>
+<!ELEMENT salario (#PCDATA)>
+<!ATTLIST equipo
+    codigo_equipo CDATA #REQUIRED
+    nombre_entrenador CDATA #REQUIRED
+    fecha_creacion CDATA #REQUIRED>
