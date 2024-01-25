@@ -1,0 +1,7 @@
+<!ELEMENT jugadores (jugador+)>
+<!ELEMENT jugador (nif, estado, observaciones?, nombre, equipo)>
+<!ELEMENT nif (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT equipo (#PCDATA)>

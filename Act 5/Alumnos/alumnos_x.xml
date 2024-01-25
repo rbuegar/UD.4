@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "a/alumnos.xsd">
+<alumnos>
+    <alumno>
+        <nif>12345678A</nif>
+        <resultado>apto</resultado>
+        <observaciones>Excelente desempeño en programación.</observaciones>
+        <ip>192.168.1.2</ip>
+    </alumno>
+    <alumno>
+        <nif>98765432B</nif>
+        <resultado>No apto</resultado>
+        <mac>00:1A:2B:3C:4D:5E</mac>
+    </alumno>
+    <alumno>
+        <nif>11122333C</nif>
+        <resultado>apto</resultado>
+        <ip>192.168.1.5</ip>
+    </alumno>
+    <alumno>
+        <nif>44556677D</nif>
+        <resultado>apto</resultado>
+        <mac>AA:BB:CC:DD:EE:FF</mac>
+    </alumno>
+    <alumno>
+        <nif>88990011E</nif>
+        <resultado>No apto</resultado>
+        <observaciones>Problemas en la resolución de ejercicios prácticos.</observaciones>
+        <ip>192.168.1.8</ip>
+    </alumno>
+    <alumno>
+        <nif>22334455F</nif>
+        <resultado>apto</resultado>
+        <mac>11:22:33:44:55:66</mac>
+    </alumno>
+    <alumno>
+        <nif>66778899G</nif>
+        <resultado>No apto</resultado>
+        <observaciones>Faltas continuas a clase.</observaciones>
+        <mac>22:33:44:55:66:77</mac>
+    </alumno>
+    <alumno>
+        <nif>11223344H</nif>
+        <resultado>apto</resultado>
+        <ip>192.168.1.11</ip>
+    </alumno>
+    <alumno>
+        <nif>55667788I</nif>
+        <resultado>No apto</resultado>
+        <mac>33:44:55:66:77:88</mac>
+    </alumno>
+    <alumno>
+        <nif>99001122J</nif>
+        <resultado>apto</resultado>
+        <ip>192.168.1.14</ip>
+    </alumno>
+</alumnos>

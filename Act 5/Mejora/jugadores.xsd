@@ -1,0 +1,21 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="jugadores">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="jugador" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nif" type="xs:string"/>
+              <xs:element name="estado" type="xs:string"/>
+              <xs:element name="observaciones" type="xs:string" minOccurs="0"/>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="equipo" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

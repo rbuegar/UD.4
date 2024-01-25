@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jugadores SYSTEM "jugadores.dtd">
+<jugadores>
+    <jugador>
+        <nif>12345678A</nif>
+        <estado>activo</estado>
+        <observaciones>Gran desempeño en la temporada actual.</observaciones>
+        <nombre>Lionel Messi</nombre>
+        <equipo>Paris Saint-Germain</equipo>
+    </jugador>
+    <jugador>
+        <nif>98765432B</nif>
+        <estado>retirado</estado>
+        <nombre>Cristiano Ronaldo</nombre>
+        <equipo>Manchester United</equipo>
+    </jugador>
+    <jugador>
+        <nif>11122333C</nif>
+        <estado>activo</estado>
+        <nombre>Neymar Jr.</nombre>
+        <equipo>Paris Saint-Germain</equipo>
+    </jugador>
+    <jugador>
+        <nif>44556677D</nif>
+        <estado>activo</estado>
+        <nombre>Robert Lewandowski</nombre>
+        <equipo>Bayern Munich</equipo>
+    </jugador>
+    <jugador>
+        <nif>88990011E</nif>
+        <estado>retirado</estado>
+        <observaciones>Lesión grave durante la última temporada.</observaciones>
+        <nombre>Sergio Ramos</nombre>
+        <equipo>Paris Saint-Germain</equipo>
+    </jugador>
+    <jugador>
+        <nif>22334455F</nif>
+        <estado>activo</estado>
+        <nombre>Mohamed Salah</nombre>
+        <equipo>Liverpool</equipo>
+    </jugador>
+    <jugador>
+        <nif>66778899G</nif>
+        <estado>retirado</estado>
+        <observaciones>Decisión personal de retirarse después de una carrera exitosa.</observaciones>
+        <nombre>Andrés Iniesta</nombre>
+        <equipo>Vissel Kobe</equipo>
+    </jugador>
+    <jugador>
+        <nif>11223344H</nif>
+        <estado>activo</estado>
+        <nombre>Kylian Mbappé</nombre>
+        <equipo>Paris Saint-Germain</equipo>
+    </jugador>
+    <jugador>
+        <nif>55667788I</nif>
+        <estado>activo</estado>
+        <nombre>Kevin De Bruyne</nombre>
+        <equipo>Manchester City</equipo>
+    </jugador>
+    <jugador>
+        <nif>99001122J</nif>
+        <estado>retirado</estado>
+        <observaciones>Se retiró al finalizar la última temporada.</observaciones>
+        <nombre>Xavi Hernandez</nombre>
+        <equipo>Al-Sadd</equipo>
+    </jugador>
+</jugadores>
