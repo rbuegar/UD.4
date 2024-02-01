@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE modulos SYSTEM "modulos.dtd">
+<modulos>
+    <modulo>
+        <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+        <contenidos>
+            <ud tipo="Teoría">
+                <descripcion>Fundamentos de programación</descripcion>
+            </ud>
+            <ud tipo="Práctica">
+                <descripcion>Programación orientada a objetos</descripcion>
+            </ud>
+            
+        </contenidos>
+    </modulo>
+
+    <modulo>
+        <nombre>Administración de Sistemas Gestores de Bases de Datos</nombre>
+        <contenidos>
+            <ud tipo="Teoría">
+                <descripcion>Modelos de datos y diseño de bases de datos</descripcion>
+            </ud>
+            <ud tipo="Práctica">
+                <descripcion>Administración y optimización de bases de datos</descripcion>
+            </ud>
+            
+        </contenidos>
+    </modulo>
+
+    <modulo>
+        <nombre>Entornos de Desarrollo</nombre>
+        <contenidos>
+            <ud tipo="Teoría">
+                <descripcion>Desarrollo de software en entornos integrados</descripcion>
+            </ud>
+            <ud tipo="Práctica">
+                <descripcion>Pruebas y mantenimiento de aplicaciones</descripcion>
+            </ud>
+            
+        </contenidos>
+    </modulo>
+
+    <modulo>
+        <nombre>Sistemas Informáticos</nombre>
+        <contenidos>
+            <ud tipo="Teoría">
+                <descripcion>Arquitectura de computadores</descripcion>
+            </ud>
+            <ud tipo="Práctica">
+                <descripcion>Instalación y configuración de sistemas operativos</descripcion>
+            </ud>
+            
+        </contenidos>
+    </modulo>
+
+    <modulo>
+        <nombre>Empresa e Iniciativa Emprendedora</nombre>
+        <contenidos>
+            <ud tipo="Teoría">
+                <descripcion>Creación y gestión de empresas</descripcion>
+            </ud>
+            <ud tipo="Práctica">
+                <descripcion>Plan de negocio</descripcion>
+            </ud>
+            
+        </contenidos>
+    </modulo>
+
+    <modulo>
+        <nombre>Despliegue de Aplicaciones Web</nombre>
+        <contenidos>
+            <ud tipo="Teoría">
+                <descripcion>Desarrollo y despliegue de aplicaciones web</descripcion>
+            </ud>
+            <ud tipo="Práctica">
+                <descripcion>Configuración de servidores web</descripcion>
+            </ud>
+            
+        </contenidos>
+    </modulo>
+</modulos>
