@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE informe SYSTEM "ventas.dtd">
+<informe>
+    <fecha>2024-02-01</fecha>
+    <cabecera>
+        <region>
+            <trimestre>1</trimestre>
+        </region>
+        <region>
+            <trimestre>2</trimestre>
+        </region>
+        <region>
+            <trimestre>3</trimestre>
+        </region>
+    </cabecera>
+    <datos>
+        <region>
+            <trimestre>1</trimestre>
+            <libros_vendidos>150</libros_vendidos>
+        </region>
+        <region>
+            <trimestre>2</trimestre>
+            <!-- No se proporciona información sobre los libros vendidos -->
+        </region>
+        <region>
+            <trimestre>3</trimestre>
+            <libros_vendidos>200</libros_vendidos>
+        </region>
+        <region>
+            <trimestre>4</trimestre>
+            <libros_vendidos>180</libros_vendidos>
+        </region>
+        <region>
+            <trimestre>1</trimestre>
+            <!-- No se proporciona información sobre los libros vendidos -->
+        </region>
+        <region>
+            <trimestre>2</trimestre>
+            <libros_vendidos>220</libros_vendidos>
+        </region>
+        <region>
+            <trimestre>3</trimestre>
+            <!-- No se proporciona información sobre los libros vendidos -->
+        </region>
+        <region>
+            <trimestre>4</trimestre>
+            <libros_vendidos>190</libros_vendidos>
+        </region>
+        <region>
+            <trimestre>1</trimestre>
+            <libros_vendidos>160</libros_vendidos>
+        </region>
+        <region>
+            <trimestre>2</trimestre>
+            <!-- No se proporciona información sobre los libros vendidos -->
+        </region>
+        <region>
+            <trimestre>3</trimestre>
+            <libros_vendidos>210</libros_vendidos>
+        </region>
+        <region>
+            <trimestre>4</trimestre>
+            <libros_vendidos>175</libros_vendidos>
+        </region>
+    </datos>
+</informe>

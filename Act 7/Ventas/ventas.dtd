@@ -1,0 +1,7 @@
+<!ELEMENT informe (fecha, cabecera, datos)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT cabecera (region+)>
+<!ELEMENT region (trimestre, libros_vendidos?)>
+<!ELEMENT trimestre (#PCDATA)>
+<!ELEMENT libros_vendidos (#PCDATA)>
+<!ELEMENT datos (region+, region+, region+)>
