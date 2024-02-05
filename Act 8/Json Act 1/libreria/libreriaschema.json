@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+    "titulo": {
+    "type": "string",
+    "minLength": 1
+    },
+    "autor": {
+    "type": "string",
+    "minLength": 1
+    },
+    "genero": {
+    "type": "string",
+    "minLength": 1
+    },
+    "publicacion": {
+    "type": "integer",
+    "minimum": 0
+    },
+    "precio": {
+    "type" : "integer",
+    "minimun": 0
+    }
+    }
+    
+   }

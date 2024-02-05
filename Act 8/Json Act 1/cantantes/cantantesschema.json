@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+    "nombre": {
+    "type": "string",
+    "minLength": 1
+    },
+    "genero": {
+    "type": "string",
+    "minLength": 1
+    },
+    "albumes": {
+    "type": "integer",
+    "minimum": 0
+    },
+    "popularidad": {
+    "type" : "string",
+    "minLength": 1
+    }
+    }
+    
+   }
