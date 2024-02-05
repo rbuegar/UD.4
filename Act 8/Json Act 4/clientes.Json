@@ -1,0 +1,18 @@
+{
+    "gestoria": {
+      "sede": {
+        "@codigo_sede": "S001",
+        "@nombre_empleado": "Juan",
+        "@fecha_alta": "2024-01-25",
+        "cliente": {
+          "codigo_cliente": "ABC-123",
+          "descripcion_cliente": "solvente",
+          "num_viviendas": 3,
+          "coste_vivienda": 150000.00,
+          "resumen_viviendas": "Resumen de las viviendas",
+          "plazo_alta_hacienda": "2024-02-01"
+        }
+      }
+    }
+  }
+  

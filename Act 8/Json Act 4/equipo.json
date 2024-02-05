@@ -1,0 +1,24 @@
+{
+    "futbol": {
+      "equipo": {
+        "@codigo_equipo": "E001",
+        "@nombre_entrenador": "Pep Guardiola",
+        "@fecha_creacion": "2024-01-25",
+        "jugador": [
+          {
+            "codigo_jugador": "PLR-001",
+            "nombre": "Lionel Messi",
+            "posicion": "Delantero",
+            "salario": 15000000.00
+          },
+          {
+            "codigo_jugador": "PLR-002",
+            "nombre": "Kevin De Bruyne",
+            "posicion": "Centrocampista",
+            "salario": 12000000.00
+          }
+        ]
+      }
+    }
+  }
+  

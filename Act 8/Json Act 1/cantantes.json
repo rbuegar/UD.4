@@ -1,0 +1,67 @@
+{
+    "discografica": {
+      "cantante": [
+        {
+          "nombre": "Beyoncé",
+          "genero": "Pop/RyB",
+          "albumes": "6",
+          "popularidad": "Alta"
+        },
+        {
+          "nombre": "Ed Sheeran",
+          "genero": "Pop",
+          "albumes": "5",
+          "popularidad": "Alta"
+        },
+        {
+          "nombre": "Adele",
+          "genero": "Pop/Soul",
+          "albumes": "4",
+          "popularidad": "Alta"
+        },
+        {
+          "nombre": "Drake",
+          "genero": "Rap/RyB",
+          "albumes": "7",
+          "popularidad": "Alta"
+        },
+        {
+          "nombre": "Taylor Swift",
+          "genero": "Country/Pop",
+          "albumes": "9",
+          "popularidad": "Alta"
+        },
+        {
+          "nombre": "Justin Bieber",
+          "genero": "Pop/RyB",
+          "albumes": "6",
+          "popularidad": "Alta"
+        },
+        {
+          "nombre": "Ariana Grande",
+          "genero": "Pop/RyB",
+          "albumes": "5",
+          "popularidad": "Alta"
+        },
+        {
+          "nombre": "Post Malone",
+          "genero": "Rap/Pop",
+          "albumes": "4",
+          "popularidad": "Alta"
+        },
+        {
+          "nombre": "Shawn Mendes",
+          "genero": "Pop",
+          "albumes": "3",
+          "popularidad": "Alta"
+        },
+        {
+          "nombre": "Dua Lipa",
+          "genero": "Pop",
+          "albumes": "2",
+          "popularidad": "Alta"
+        }
+      ]
+    }
+  }
+  

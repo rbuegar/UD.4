@@ -1,0 +1,25 @@
+{
+    "universidad": {
+      "facultad": [
+        {
+          "nombre": "Ingeniería",
+          "estudiantes": {
+            "estudiante": [
+              { "matricula": "1001", "nombre": "Carlos Pérez", "edad": 21, "promedio": 85 },
+              { "matricula": "1002", "nombre": "Ana Gómez" }
+            ]
+          }
+        },
+        {
+          "nombre": "Ciencias Sociales",
+          "estudiantes": {
+            "estudiante": [
+              { "matricula": "2001", "nombre": "Mario Rodríguez", "edad": 22, "promedio": 78 },
+              { "matricula": "2002", "nombre": "Laura Martínez", "edad": 20, "promedio": 92 }
+            ]
+          }
+        }
+      ]
+    }
+  }
+  

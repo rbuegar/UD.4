@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE universidad SYSTEM "universidad.dtd">
+<universidad>
+    <facultad>
+        <nombre>Ingeniería</nombre>
+        <estudiantes>
+            <estudiante>
+                <matricula>1001</matricula>
+                <nombre>Carlos Pérez</nombre>
+                <edad>21</edad>
+                <promedio>85</promedio>
+            </estudiante>
+            <estudiante>
+                <matricula>1002</matricula>
+                <nombre>Ana Gómez</nombre>
+                <!-- No se proporciona información sobre la edad y el promedio -->
+            </estudiante>
+        </estudiantes>
+    </facultad>
+    <facultad>
+        <nombre>Ciencias Sociales</nombre>
+        <estudiantes>
+            <estudiante>
+                <matricula>2001</matricula>
+                <nombre>Mario Rodríguez</nombre>
+                <edad>22</edad>
+                <promedio>78</promedio>
+            </estudiante>
+            <estudiante>
+                <matricula>2002</matricula>
+                <nombre>Laura Martínez</nombre>
+                <edad>20</edad>
+                <promedio>92</promedio>
+            </estudiante>
+        </estudiantes>
+    </facultad>
+</universidad>

@@ -1,0 +1,71 @@
+{
+    "jugadores": {
+      "jugador": [
+        {
+          "nif": "12345678A",
+          "estado": "activo",
+          "observaciones": "Gran desempeño en la temporada actual.",
+          "nombre": "Lionel Messi",
+          "equipo": "Paris Saint-Germain"
+        },
+        {
+          "nif": "98765432B",
+          "estado": "retirado",
+          "nombre": "Cristiano Ronaldo",
+          "equipo": "Manchester United"
+        },
+        {
+          "nif": "11122333C",
+          "estado": "activo",
+          "nombre": "Neymar Jr.",
+          "equipo": "Paris Saint-Germain"
+        },
+        {
+          "nif": "44556677D",
+          "estado": "activo",
+          "nombre": "Robert Lewandowski",
+          "equipo": "Bayern Munich"
+        },
+        {
+          "nif": "88990011E",
+          "estado": "retirado",
+          "observaciones": "Lesión grave durante la última temporada.",
+          "nombre": "Sergio Ramos",
+          "equipo": "Paris Saint-Germain"
+        },
+        {
+          "nif": "22334455F",
+          "estado": "activo",
+          "nombre": "Mohamed Salah",
+          "equipo": "Liverpool"
+        },
+        {
+          "nif": "66778899G",
+          "estado": "retirado",
+          "observaciones": "Decisión personal de retirarse después de una carrera exitosa.",
+          "nombre": "Andrés Iniesta",
+          "equipo": "Vissel Kobe"
+        },
+        {
+          "nif": "11223344H",
+          "estado": "activo",
+          "nombre": "Kylian Mbappé",
+          "equipo": "Paris Saint-Germain"
+        },
+        {
+          "nif": "55667788I",
+          "estado": "activo",
+          "nombre": "Kevin De Bruyne",
+          "equipo": "Manchester City"
+        },
+        {
+          "nif": "99001122J",
+          "estado": "retirado",
+          "observaciones": "Se retiró al finalizar la última temporada.",
+          "nombre": "Xavi Hernandez",
+          "equipo": "Al-Sadd"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,60 @@
+{
+    "alumnos": {
+      "alumno": [
+        {
+          "nif": "12345678A",
+          "resultado": "apto",
+          "observaciones": "Excelente desempeño en programación.",
+          "ip": "192.168.1.2"
+        },
+        {
+          "nif": "98765432B",
+          "resultado": "No apto",
+          "mac": "00:1A:2B:3C:4D:5E"
+        },
+        {
+          "nif": "11122333C",
+          "resultado": "apto",
+          "ip": "192.168.1.5"
+        },
+        {
+          "nif": "44556677D",
+          "resultado": "apto",
+          "mac": "AA:BB:CC:DD:EE:FF"
+        },
+        {
+          "nif": "88990011E",
+          "resultado": "No apto",
+          "observaciones": "Problemas en la resolución de ejercicios prácticos.",
+          "ip": "192.168.1.8"
+        },
+        {
+          "nif": "22334455F",
+          "resultado": "apto",
+          "mac": "11:22:33:44:55:66"
+        },
+        {
+          "nif": "66778899G",
+          "resultado": "No apto",
+          "observaciones": "Faltas continuas a clase.",
+          "mac": "22:33:44:55:66:77"
+        },
+        {
+          "nif": "11223344H",
+          "resultado": "apto",
+          "ip": "192.168.1.11"
+        },
+        {
+          "nif": "55667788I",
+          "resultado": "No apto",
+          "mac": "33:44:55:66:77:88"
+        },
+        {
+          "nif": "99001122J",
+          "resultado": "apto",
+          "ip": "192.168.1.14"
+        }
+      ]
+    }
+  }
+  

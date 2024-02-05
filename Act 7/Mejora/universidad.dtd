@@ -1,0 +1,9 @@
+<!ELEMENT universidad (facultad+)>
+<!ELEMENT facultad (nombre, estudiantes)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT estudiantes (estudiante+)>
+<!ELEMENT estudiante (matricula, nombre, edad?, promedio?)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT promedio (#PCDATA)>

@@ -1,0 +1,29 @@
+{
+    "informe": {
+      "fecha": "2024-02-01",
+      "cabecera": {
+        "region": [
+          { "trimestre": "1" },
+          { "trimestre": "2" },
+          { "trimestre": "3" }
+        ]
+      },
+      "datos": {
+        "region": [
+          { "trimestre": "1", "libros_vendidos": 150 },
+          { "trimestre": "2" },
+          { "trimestre": "3", "libros_vendidos": 200 },
+          { "trimestre": "4", "libros_vendidos": 180 },
+          { "trimestre": "1" },
+          { "trimestre": "2", "libros_vendidos": 220 },
+          { "trimestre": "3" },
+          { "trimestre": "4", "libros_vendidos": 190 },
+          { "trimestre": "1", "libros_vendidos": 160 },
+          { "trimestre": "2" },
+          { "trimestre": "3", "libros_vendidos": 210 },
+          { "trimestre": "4", "libros_vendidos": 175 }
+        ]
+      }
+    }
+  }
+  
