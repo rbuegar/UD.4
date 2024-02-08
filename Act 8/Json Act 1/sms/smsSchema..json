@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "telefono": {
+            "type": "integer",
+            "minimum": 9
+        },
+        "fecha": {
+            "type": "string",
+            "format": "date",
+            "minimum": 1
+        },
+        "hora": {
+            "type": "integer",
+            "minimum": 1
+        },
+        "mensaje": {
+            "type": "string",
+            "minLength": 1
+        }
+    },
+    "required": ["telefono", "fecha", "hora", "mensaje"]
+}

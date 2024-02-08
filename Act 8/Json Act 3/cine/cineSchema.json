@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "codigo": {
+        "type": "string",
+        "pattern": "^\\d{3}$"
+      },
+      "nombre": {
+        "type": "string"
+      },
+      "director": {
+        "type": "string"
+      },
+      "fechaEstreno": {
+        "type": "string",
+        "format": "date"
+      },
+      "personajes": {
+        "type": "string"
+      },
+      "salas": {
+        "type": "string"
+      },
+      "compañiaCinematografica": {
+        "type": "string"
+      }
+    },
+    "required": ["codigo", "nombre", "director", "fechaEstreno", "personajes", "salas", "compañiaCinematografica"]
+  }
+  

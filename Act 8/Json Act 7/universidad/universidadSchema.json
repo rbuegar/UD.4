@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "informe": {
+        "type": "object",
+        "properties": {
+          "fecha": {"type": "string", "format": "date"},
+          "cabecera": {
+            "type": "object",
+            "properties": {
+              "region": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "trimestre": {"type": "string"}
+                  },
+                  "required": ["trimestre"]
+                }
+              }
+            },
+            "required": ["region"]
+          },
+          "datos": {
+            "type": "object",
+            "properties": {
+              "region": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "trimestre": {"type": "string"},
+                    "libros_vendidos": {"type": "integer"}
+                  },
+                  "required": ["trimestre"]
+                }
+              }
+            },
+            "required": ["region"]
+          }
+        },
+        "required": ["fecha", "cabecera", "datos"]
+      }
+    },
+    "required": ["informe"]
+  }
+  
