@@ -2,22 +2,25 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "type": "object",
     "properties": {
-    "nombre": {
-    "type": "string",
-    "minLength": 1
+        "discografica": {
+            "type": "object",
+            "properties": {
+                "cantante": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "nombre": {"type": "string"},
+                            "genero": {"type": "string"},
+                            "albumes": {"type": "string"},
+                            "popularidad": {"type": "string"}
+                        },
+                        "required": ["nombre", "genero", "albumes", "popularidad"]
+                    }
+                }
+            },
+            "required": ["cantante"]
+        }
     },
-    "genero": {
-    "type": "string",
-    "minLength": 1
-    },
-    "albumes": {
-    "type": "integer",
-    "minimum": 0
-    },
-    "popularidad": {
-    "type" : "string",
-    "minLength": 1
-    }
-    }
-    
-   }
+    "required": ["discografica"]
+}

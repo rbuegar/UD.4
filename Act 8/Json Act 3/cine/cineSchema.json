@@ -1,31 +1,30 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
-    "properties": {
-      "codigo": {
-        "type": "string",
-        "pattern": "^\\d{3}$"
-      },
-      "nombre": {
-        "type": "string"
-      },
-      "director": {
-        "type": "string"
-      },
-      "fechaEstreno": {
-        "type": "string",
-        "format": "date"
-      },
-      "personajes": {
-        "type": "string"
-      },
-      "salas": {
-        "type": "string"
-      },
-      "compañiaCinematografica": {
-        "type": "string"
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+      "cine": {
+          "type": "object",
+          "properties": {
+              "pelicula": {
+                  "type": "array",
+                  "items": {
+                      "type": "object",
+                      "properties": {
+                          "codigo": {"type": "string"},
+                          "nombre": {"type": "string"},
+                          "director": {"type": "string"},
+                          "fechaEstreno": {"type": "string", "format": "date"},
+                          "personajes": {"type": "string"},
+                          "salas": {"type": "string"},
+                          "compañiaCinematografica": {"type": "string"}
+                      },
+                      "required": ["codigo", "nombre", "director", "fechaEstreno", "personajes", "salas", "compañiaCinematografica"]
+                  }
+              }
+          },
+          "required": ["pelicula"]
       }
-    },
-    "required": ["codigo", "nombre", "director", "fechaEstreno", "personajes", "salas", "compañiaCinematografica"]
-  }
+  },
+  "required": ["cine"]
+}
   

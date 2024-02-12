@@ -1,29 +1,28 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
-    "properties": {
-      "nif": {
-        "type": "string",
-        "pattern": "^[0-9]{8}[A-Za-z]$"
-      },
-      "estado": {
-        "type": "string",
-        "enum": ["activo", "retirado"]
-      },
-      "observaciones": {
-        "type": "string"
-      },
-      "nombre": {
-        "type": "string"
-      },
-      "equipo": {
-        "type": "string"
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+      "jugadores": {
+          "type": "object",
+          "properties": {
+              "jugador": {
+                  "type": "array",
+                  "items": {
+                      "type": "object",
+                      "properties": {
+                          "nif": {"type": "string"},
+                          "estado": {"type": "string", "enum": ["activo", "retirado"]},
+                          "observaciones": {"type": "string"},
+                          "nombre": {"type": "string"},
+                          "equipo": {"type": "string"}
+                      },
+                      "required": ["nif", "estado", "nombre", "equipo"]
+                  }
+              }
+          },
+          "required": ["jugador"]
       }
-    },
-    "required": ["nif", "estado", "nombre", "equipo"],
-    "anyOf": [
-      {"required": ["observaciones"]},
-      {"not": {"required": ["observaciones"]}}
-    ]
-  }
+  },
+  "required": ["jugadores"]
+}
   

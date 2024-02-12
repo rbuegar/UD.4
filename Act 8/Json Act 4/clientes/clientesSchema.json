@@ -1,35 +1,35 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
-    "properties": {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
       "gestoria": {
-        "type": "object",
-        "properties": {
-          "sede": {
-            "type": "object",
-            "properties": {
-              "@codigo_sede": {"type": "string"},
-              "@nombre_empleado": {"type": "string"},
-              "@fecha_alta": {"type": "string", "format": "date"}
-            },
-            "required": ["@codigo_sede", "@nombre_empleado", "@fecha_alta"]
+          "type": "object",
+          "properties": {
+              "sede": {
+                  "type": "object",
+                  "properties": {
+                      "@codigo_sede": {"type": "string"},
+                      "@nombre_empleado": {"type": "string"},
+                      "@fecha_alta": {"type": "string", "format": "date"},
+                      "cliente": {
+                          "type": "object",
+                          "properties": {
+                              "codigo_cliente": {"type": "string"},
+                              "descripcion_cliente": {"type": "string"},
+                              "num_viviendas": {"type": "integer"},
+                              "coste_vivienda": {"type": "number"},
+                              "resumen_viviendas": {"type": "string"},
+                              "plazo_alta_hacienda": {"type": "string", "format": "date"}
+                          },
+                          "required": ["codigo_cliente", "descripcion_cliente", "num_viviendas", "coste_vivienda", "resumen_viviendas", "plazo_alta_hacienda"]
+                      }
+                  },
+                  "required": ["@codigo_sede", "@nombre_empleado", "@fecha_alta", "cliente"]
+              }
           },
-          "cliente": {
-            "type": "object",
-            "properties": {
-              "codigo_cliente": {"type": "string"},
-              "descripcion_cliente": {"type": "string"},
-              "num_viviendas": {"type": "integer"},
-              "coste_vivienda": {"type": "number"},
-              "resumen_viviendas": {"type": "string"},
-              "plazo_alta_hacienda": {"type": "string", "format": "date"}
-            },
-            "required": ["codigo_cliente", "descripcion_cliente", "num_viviendas", "coste_vivienda", "resumen_viviendas", "plazo_alta_hacienda"]
-          }
-        },
-        "required": ["sede", "cliente"]
+          "required": ["sede"]
       }
-    },
-    "required": ["gestoria"]
-  }
+  },
+  "required": ["gestoria"]
+}
   

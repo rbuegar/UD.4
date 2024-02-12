@@ -27,16 +27,9 @@ schema = {
     "required": ["telefono", "fecha", "hora", "mensaje"]
 }
 
-# Función para validar el JSON
-def validar_json(json_data, schema):
-    try:
-        validate(instance=json_data, schema=schema)
-        print("El JSON es válido.")
-    except Exception as e:
-        print(f"El JSON no es válido: {e}")
 
 # Archivo JSON a validar
-json_data = ''' 
+archivo_json = ''' 
 {
           "telefono": "955 55 66 55",
           "fecha": "1/7/2011",

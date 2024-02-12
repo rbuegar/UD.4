@@ -1,34 +1,43 @@
 import json
 from jsonschema import validate
+from jsonschema.exceptions import ValidationError
 
 # Definir el esquema
 schema = {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "type": "object",
     "properties": {
-    "nombre": {
-    "type": "string",
-    "minLength": 1
+        "discografica": {
+            "type": "object",
+            "properties": {
+                "cantante": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "nombre": {"type": "string"},
+                            "genero": {"type": "string"},
+                            "albumes": {"type": "string"},
+                            "popularidad": {"type": "string"}
+                        },
+                        "required": ["nombre", "genero", "albumes", "popularidad"]
+                    }
+                }
+            },
+            "required": ["cantante"]
+        }
     },
-    "genero": {
-    "type": "string",
-    "minLength": 1
-    },
-    "albumes": {
-    "type": "integer",
-    "minimum": 0
-    },
-    "popularidad": {
-    "type" : "string",
-    "minLength": 1
-    }
-    }
-    
-   }
+    "required": ["discografica"]
+}
+
+
 
 # Archivo JSON a validar
 archivo_json = '''
 {
+    "discografica": {
+      "cantante": [
+        {
           "nombre": "Beyoncé",
           "genero": "Pop/RyB",
           "albumes": "6",
@@ -37,7 +46,7 @@ archivo_json = '''
         {
           "nombre": "Ed Sheeran",
           "genero": "Pop",
-          "albumes": "",
+          "albumes": "5",
           "popularidad": "Alta"
         },
         {
@@ -90,6 +99,7 @@ archivo_json = '''
         }
       ]
     }
+  }
 '''
 
 # Cargar el archivo JSON
@@ -98,6 +108,3 @@ datos_json = json.loads(archivo_json)
 # Validar contra el esquema
 validate(instance=datos_json, schema=schema)
 
-#Este script de Python utiliza la biblioteca jsonschema para cargar el esquema y los datos JSON, 
-#y luego realiza la validación. Si el archivo JSON cumple con el esquema, no se producirá ninguna excepción. 
-#En caso contrario, se lanzará una excepción indicando la razón de la invalidación.

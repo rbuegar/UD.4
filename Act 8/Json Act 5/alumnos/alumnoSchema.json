@@ -1,32 +1,28 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
-    "properties": {
-      "nif": {
-        "type": "string",
-        "pattern": "^[0-9]{8}[A-Za-z]$"
-      },
-      "resultado": {
-        "type": "string",
-        "enum": ["apto", "No apto"]
-      },
-      "observaciones": {
-        "type": "string"
-      },
-      "ip": {
-        "type": "string",
-        "format": "ipv4"
-      },
-      "mac": {
-        "type": "string",
-        "pattern": "^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$"
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+      "alumnos": {
+          "type": "object",
+          "properties": {
+              "alumno": {
+                  "type": "array",
+                  "items": {
+                      "type": "object",
+                      "properties": {
+                          "nif": {"type": "string"},
+                          "resultado": {"type": "string", "enum": ["apto", "No apto"]},
+                          "observaciones": {"type": "string"},
+                          "ip": {"type": "string", "format": "ipv4"},
+                          "mac": {"type": "string", "pattern": "^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$"}
+                      },
+                      "required": ["nif", "resultado"]
+                  }
+              }
+          },
+          "required": ["alumno"]
       }
-    },
-    "required": ["nif", "resultado"],
-    "anyOf": [
-      {"required": ["observaciones"]},
-      {"required": ["ip"]},
-      {"required": ["mac"]}
-    ]
-  }
+  },
+  "required": ["alumnos"]
+}
   

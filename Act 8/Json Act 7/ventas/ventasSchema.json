@@ -1,43 +1,43 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
-    "properties": {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
       "universidad": {
-        "type": "object",
-        "properties": {
-          "facultad": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "nombre": {"type": "string"},
-                "estudiantes": {
-                  "type": "object",
-                  "properties": {
-                    "estudiante": {
-                      "type": "array",
-                      "items": {
-                        "type": "object",
-                        "properties": {
-                          "matricula": {"type": "string"},
+          "type": "object",
+          "properties": {
+              "facultad": {
+                  "type": "array",
+                  "items": {
+                      "type": "object",
+                      "properties": {
                           "nombre": {"type": "string"},
-                          "edad": {"type": "integer"},
-                          "promedio": {"type": "number"}
-                        },
-                        "required": ["matricula", "nombre"]
-                      }
-                    }
-                  },
-                  "required": ["estudiante"]
-                }
-              },
-              "required": ["nombre", "estudiantes"]
-            }
-          }
-        },
-        "required": ["facultad"]
+                          "estudiantes": {
+                              "type": "object",
+                              "properties": {
+                                  "estudiante": {
+                                      "type": "array",
+                                      "items": {
+                                          "type": "object",
+                                          "properties": {
+                                              "matricula": {"type": "string"},
+                                              "nombre": {"type": "string"},
+                                              "edad": {"type": "integer"},
+                                              "promedio": {"type": "number"}
+                                          },
+                                          "required": ["matricula", "nombre"]
+                                      }
+                                  }
+                              },
+                              "required": ["estudiante"]
+                          }
+                      },
+                      "required": ["nombre", "estudiantes"]
+                  }
+              }
+          },
+          "required": ["facultad"]
       }
-    },
-    "required": ["universidad"]
-  }
+  },
+  "required": ["universidad"]
+}
   
